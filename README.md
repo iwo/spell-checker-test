@@ -1,6 +1,8 @@
 # spell-checker-test
 Test rig comparing Android spell checker with Hunspell
 
+[Blog post](http://www.iwobanas.com/2016/01/how-bad-is-android-google-keyboard/) describing this test.
+
 Build and run with Android Studio or Gradle.
 
 ## Before running the test

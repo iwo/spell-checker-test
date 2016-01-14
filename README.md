@@ -6,10 +6,10 @@ Test rig comparing Android spell checker with Hunspell
 Build and run with Android Studio or Gradle.
 
 ## Before running the test
- * extract `hunspell_words.zip` to external storage on your device
- * or generate your own words list using `generate_word_list.sh` script
+ * extract [hunspell_words.zip](hunspell_words.zip) to external storage on your device
+ * or generate your own words list using [generate_word_list.sh](generate_word_list.sh) script
  * enable all the languages you want to test in your Android Keyboard and make sure it downloaded the dictionaries
- * modify `MainActivity` to reflect the list of languages you want to test
+ * modify [MainActivity.java](app/src/main/java/iwobanas/com/spellcheckertest/MainActivity.java) to reflect the list of languages you want to test
 
 ## Test results
 Summary of the test is stored in `spell_checker_test.csv` file on external storage.
